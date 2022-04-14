@@ -1,4 +1,4 @@
-import { TempApp } from "../comps/proof/src/App/App";
+//import { TempApp } from "../comps/proof/src/App/App";
 
 function Dashboard(params) {
     return <><h4>Working on its integration</h4></>
