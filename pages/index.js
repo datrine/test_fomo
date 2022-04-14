@@ -1,4 +1,8 @@
 
 import FomoStaking from "../comps/serious/staking";
-
-export default FomoStaking
+let Index=()=>{
+    return<>
+    <FomoStaking/>
+    </>
+}
+export default Index
