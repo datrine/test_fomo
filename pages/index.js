@@ -1,8 +1,8 @@
 
-import FomoStaking from "../comps/serious/staking";
+import FomoIndex from "../comps/serious/index";
 let Index=()=>{
     return<>
-    <FomoStaking/>
+    <FomoIndex/>
     </>
 }
 export default Index
