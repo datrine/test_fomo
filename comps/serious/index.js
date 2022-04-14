@@ -2,14 +2,14 @@
 import { Divider, Grid } from "@mui/material";
 import { Container, Tabs, InputGroup, FormGroup, Tab, FormControl, Form, Row, Col, ButtonGroup, Button } from "react-bootstrap"
 import FomoShell from "./shell";
-import {FaKey,FaPiggyBank} from "react-icons/fa"
-import {SiBinance} from "react-icons/si"
+import { FaKey, FaPiggyBank } from "react-icons/fa"
+import { SiBinance } from "react-icons/si"
 
 let FomoIndex = () => {
     return <>
         <FomoShell>
-            <Container style={{padding:0}} >
-                <Container style={{padding:0}}>
+            <Container style={{ padding: 0 }} >
+                <Container style={{ padding: 0 }}>
                     <Row>
                         <Col md={6}>  <TabsOfMain /></Col>
                         <Col md={6}> <TabsOfRoundTeams /></Col>
@@ -42,9 +42,9 @@ let TabsOfMain = () => {
 
 let PurchaseTab = () => {
     return <><>
-        <div style={{ backgroundColor: "#212529", color: "white" ,paddingBottom:"50px"}}>
+        <div style={{ backgroundColor: "#212529", color: "white", paddingBottom: "50px" }}>
             <InputGroup className="mb-3">
-                <InputGroup.Text id="basic-addon1"><FaKey/></InputGroup.Text>
+                <InputGroup.Text id="basic-addon1"><FaKey /></InputGroup.Text>
                 <FormControl
                     placeholder=""
                     aria-label=""
@@ -55,18 +55,21 @@ let PurchaseTab = () => {
 
 
             <InputGroup>
-            <ButtonGroup size="lg" aria-label="Basic example" style={{display:"flex",flexGrow:"2"}} >
-                <Button variant="secondary">Left</Button>
-                <Button variant="secondary">Middle</Button>
-                <Button variant="secondary">Right</Button>
-            </ButtonGroup>
+                <ButtonGroup size="lg" aria-label="Basic example" style={{ display: "flex", flexGrow: "2" }} >
+                    <Button variant="secondary">Left</Button>
+                    <Button variant="secondary">Middle</Button>
+                    <Button variant="secondary">Right</Button>
+                </ButtonGroup>
             </InputGroup>
-            <div style={{display:"flex",flexGrow:"2", 
-            justifyContent:"space-between", marginTop:"50px"
-        }} >
-                <Button style={{width:"40%",backgroundColor:"#f000f0"}} ><SiBinance/> Send BNB</Button>
-                <Button style={{width:"40%",
-                backgroundColor:"transparent",borderColor:"#f000f0"}}><FaPiggyBank/> Use Vault</Button>
+            <div style={{
+                display: "flex", flexGrow: "2",
+                justifyContent: "space-between", marginTop: "50px"
+            }} >
+                <Button style={{ width: "40%", backgroundColor: "#f000f0" }} ><SiBinance /> Send BNB</Button>
+                <Button style={{
+                    width: "40%",
+                    backgroundColor: "transparent", borderColor: "#f000f0"
+                }}><FaPiggyBank /> Use Vault</Button>
             </div>
             <ChooseTeam />
         </div>
@@ -75,28 +78,54 @@ let PurchaseTab = () => {
 
 let VaultTab = () => {
     return <>
-        <Tab.Container>
-            <VaultRow />
-        </Tab.Container>
+        <div >
+            <h3 style={{ paddingLeft: "10px", color: "white", backgroundColor: "#212529" }} >Vault</h3>
+
+            <Tab.Container>
+                <VaultRow />
+            </Tab.Container>
+        </div>
     </>
 }
 let VaultRow = () => {
-    return <>
-        <div style={{ backgroundColor: "#212529", color: "white" }}>
-            <span>Exit</span>
-            <span>6.67 BNB</span>
+    return <><div style={{ padding: '10px', }}>
+
+        <div style={{
+            padding: 10, backgroundColor: "#111511", color: "white",
+            borderRadius: "5px"
+        }}>
+
+            <div style={{
+                display: "flex", borderRadius: "5px", justifyContent: "space-between",marginBottom:"20px"
+            }}>
+                <span>Exit</span>
+                <span>6.67 BNB</span>
+            </div>
+            <div style={{
+                display: "flex", borderRadius: "5px", justifyContent: "space-between",marginBottom:"20px"
+            }}>
+                <span>Exit</span>
+                <span>6.67 BNB</span>
+            </div>
+            <div style={{
+                display: "flex", borderRadius: "5px", justifyContent: "space-between",marginBottom:"20px"
+            }}>
+                <span>Exit</span>
+                <span>6.67 BNB</span>
+            </div>
         </div>
+    </div>
     </>
 }
 
 
 let ChooseTeam = () => {
     return <>
-        <div style={{ display: "flex",marginTop:"50px" }}>
+        <div style={{ display: "flex", marginTop: "50px" }}>
             <IconEmo />
 
             <IconEmo />
-            <Divider style={{backgroundColor:"white",borderColor:"white"}} orientation="vertical" />
+            <Divider style={{ backgroundColor: "white", borderColor: "white" }} orientation="vertical" />
             <IconEmo />
             <Divider />
             <IconEmo />
@@ -109,7 +138,7 @@ let IconEmo = () => {
         <div style={{
             display: "flex",
             flexDirection: "column", alignItems: "center",
-            height: "200px",borderRight:"2px solid #696969",marginRight:"10px"
+            height: "200px", borderRight: "2px solid #696969", marginRight: "10px"
         }} >
             <img src="./whale.png" />
             <h3>Snake</h3>
@@ -126,7 +155,7 @@ let TabsOfRoundTeams = () => {
         style={{ Color: "white", backgroundColor: "#212529", padding: 10 }} >
         <Tab eventKey="round" title="Round"
             style={{ Color: "white", backgroundColor: "#212529", padding: 10 }} >
-            <div><RoundTab/></div>
+            <div><RoundTab /></div>
         </Tab>
         <Tab eventKey="team" title="Team" style={{ Color: "white" }}>
             <div><Tiles /></div>
@@ -156,19 +185,19 @@ let Tile = () => {
     </>
 }
 
-let RoundTab=()=>{
-    return<>
-    <div style={{ backgroundColor: "#212529", color: "white", padding: "20px" }}>
-        <div>
-            <h4>Round #0</h4>
+let RoundTab = () => {
+    return <>
+        <div style={{ backgroundColor: "#212529", color: "white", padding: "20px" }}>
             <div>
-                <Row>
-                    <Col md={6}><span>Active POT</span></Col>
-                    <Col md={6}></Col>
-                </Row>
+                <h4>Round #0</h4>
+                <div>
+                    <Row>
+                        <Col md={6}><span>Active POT</span></Col>
+                        <Col md={6}></Col>
+                    </Row>
+                </div>
             </div>
         </div>
-    </div>
     </>
 }
 
