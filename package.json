@@ -8,9 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "install:legacy": "cd comps/temp && npm install",
-    "install:modern": "npm install"
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
