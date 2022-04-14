@@ -1,0 +1,766 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632.108" height="458.003" viewBox="0 0 632.108 458.003">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#62bed8"/>
+      <stop offset="1" stop-color="#00a3bf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#008da6"/>
+      <stop offset="1" stop-color="#00b8d8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.086" y1="1" x2="0.079" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a3bf"/>
+      <stop offset="1" stop-color="#89cee2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b8d8"/>
+      <stop offset="1" stop-color="#00a3bf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b0dfec"/>
+      <stop offset="1" stop-color="#62bed8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#55c89d"/>
+      <stop offset="1" stop-color="#90ebc8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9647d"/>
+      <stop offset="1" stop-color="#ff8fa5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b0dfec"/>
+      <stop offset="1" stop-color="#00b8d8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#90ebc8"/>
+      <stop offset="1" stop-color="#55c89d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8fa5"/>
+      <stop offset="1" stop-color="#d9647d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="0.192" y1="0.096" x2="0.799" y2="0.894" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2fcda"/>
+      <stop offset="1" stop-color="#55c89d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" x1="0.08" y1="0.019" x2="0.706" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#89cee2"/>
+      <stop offset="0.112" stop-color="#74c7dd"/>
+      <stop offset="1" stop-color="#00a3bf"/>
+    </linearGradient>
+  </defs>
+  <g id="hero_img_illu" transform="translate(-73.99 -88.649)">
+    <g id="Gruppe_25014" data-name="Gruppe 25014" transform="translate(178.378 459.421)">
+      <path id="Pfad_67515" data-name="Pfad 67515" d="M39.378,0A39.378,39.378,0,1,1,0,39.378,39.378,39.378,0,0,1,39.378,0Z" fill="url(#linear-gradient)"/>
+      <path id="Pfad_67424" data-name="Pfad 67424" d="M194.364,440.206a32.887,32.887,0,1,1,32.885-32.887A32.924,32.924,0,0,1,194.364,440.206Z" transform="translate(-154.985 -367.941)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Gruppe_273" data-name="Gruppe 273" transform="translate(23.676 21.38)">
+        <g id="Gruppe_24888" data-name="Gruppe 24888" transform="translate(0 0)">
+          <g id="Gruppe_24879" data-name="Gruppe 24879" transform="translate(0.003 5.18)">
+            <path id="Pfad_67466" data-name="Pfad 67466" d="M5126.646,513.425v-5.181l-31.606,15.544v5.181Z" transform="translate(-5095.039 -505.651)" fill="#fff"/>
+            <g id="Gruppe_265" data-name="Gruppe 265" transform="translate(21.104)">
+              <path id="Pfad_449" data-name="Pfad 449" d="M5460.133,467.248l-5.2-2.55-5.3,2.609,10.5,5.164Z" transform="translate(-5449.633 -464.698)" fill="#fff"/>
+            </g>
+            <g id="Gruppe_24878" data-name="Gruppe 24878" transform="translate(0 18.136)">
+              <path id="Pfad_67468" data-name="Pfad 67468" d="M5095.039,769.406v5.181l5.269,2.591,5.268-2.591Z" transform="translate(-5095.039 -769.406)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Gruppe_24883" data-name="Gruppe 24883">
+            <g id="Gruppe_266" data-name="Gruppe 266" transform="translate(0 5.182)">
+              <path id="Pfad_450" data-name="Pfad 450" d="M5095.039,467.308V479.4l5.269-2.586v-12.1Z" transform="translate(-5095.036 -464.717)" fill="#fff"/>
+              <path id="Pfad_451" data-name="Pfad 451" d="M5100.292,464.717l-5.268,2.591,12.3,6.051,5.273-2.593Z" transform="translate(-5095.024 -464.717)" fill="#fff"/>
+            </g>
+            <g id="Gruppe_267" data-name="Gruppe 267" transform="translate(8.779)">
+              <path id="Pfad_452" data-name="Pfad 452" d="M5247.8,383.707l1.768-.869,1.762.861,5.285-2.6-7.058-3.438-7.024,3.454Z" transform="translate(-5242.531 -377.662)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Gruppe_268" data-name="Gruppe 268" transform="translate(14.053 16.413)">
+            <path id="Pfad_453" data-name="Pfad 453" d="M5336.431,754.6l-5.29,2.6,12.285,6.057,5.269-2.591Z" transform="translate(-5331.141 -748.577)" fill="#fff"/>
+            <path id="Pfad_454" data-name="Pfad 454" d="M5542.818,653.4l-5.263,2.588v12.09l5.269-2.591Z" transform="translate(-5525.267 -653.399)" fill="#fff"/>
+          </g>
+          <g id="Gruppe_24887" data-name="Gruppe 24887" transform="translate(8.781 30.224)">
+            <path id="Pfad_67474" data-name="Pfad 67474" d="M5251.319,885.477l-1.756.864-1.757-.864-5.267,2.59,7.024,3.455,7.023-3.455Z" transform="translate(-5242.539 -885.477)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_25015" data-name="Gruppe 25015" transform="translate(153.734 148.696)">
+      <path id="Pfad_67425" data-name="Pfad 67425" d="M379.554,444.346h-111.5l6.31-102.993h97.624Z" transform="translate(-98.591 -65.88)" fill="url(#linear-gradient-2)"/>
+      <rect id="Rechteck_5213" data-name="Rechteck 5213" width="450.422" height="288.038" rx="12.79" fill="url(#linear-gradient-3)"/>
+      <path id="Pfad_67519" data-name="Pfad 67519" d="M0,0H242.638V407.15H0Z" transform="translate(428.786 18.051) rotate(90)" fill="#fff"/>
+      <path id="Pfad_67516" data-name="Pfad 67516" d="M3.7,0H162.984a3.7,3.7,0,0,1,3.7,3.7V23.261a3.7,3.7,0,0,1-3.7,3.7H3.7a3.7,3.7,0,0,1-3.7-3.7V3.7A3.7,3.7,0,0,1,3.7,0Z" transform="translate(141.871 363.108)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g id="Gruppe_25096" data-name="Gruppe 25096" transform="translate(426.578 348.213)">
+      <path id="Pfad_67524" data-name="Pfad 67524" d="M2.878,0H144.685a2.878,2.878,0,0,1,2.878,2.878V40.3a2.878,2.878,0,0,1-2.878,2.878H2.878A2.878,2.878,0,0,1,0,40.3V2.878A2.878,2.878,0,0,1,2.878,0Z" fill="#e1f3f8" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Gruppe_25095" data-name="Gruppe 25095" transform="translate(10.417 9.719)">
+        <g id="Gruppe_25094" data-name="Gruppe 25094">
+          <g id="Gruppe_25091" data-name="Gruppe 25091">
+            <rect id="Rechteck_5227" data-name="Rechteck 5227" width="126.728" height="4.725" fill="#fff"/>
+          </g>
+          <g id="Gruppe_25092" data-name="Gruppe 25092" transform="translate(0 9.505)">
+            <rect id="Rechteck_5228" data-name="Rechteck 5228" width="126.728" height="4.725" fill="#fff"/>
+          </g>
+          <g id="Gruppe_25093" data-name="Gruppe 25093" transform="translate(0 19.009)">
+            <rect id="Rechteck_5229" data-name="Rechteck 5229" width="126.728" height="4.725" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rechteck_5220" data-name="Rechteck 5220" width="187.515" height="110.833" rx="8.17" transform="translate(208.777 188.809)" fill="#ebf7fa" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <g id="Gruppe_25084" data-name="Gruppe 25084" transform="translate(212.178 310.527)">
+      <path id="Pfad_67521" data-name="Pfad 67521" d="M5.756,0H170.333a5.756,5.756,0,0,1,5.756,5.756V74a5.756,5.756,0,0,1-5.756,5.756H5.756A5.756,5.756,0,0,1,0,74V5.756A5.756,5.756,0,0,1,5.756,0Z" fill="#e1f3f8" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Gruppe_25083" data-name="Gruppe 25083" transform="translate(147.369 6.409)">
+        <path id="Pfad_67485" data-name="Pfad 67485" d="M300.743,258.319a1.942,1.942,0,1,1-1.942-1.942A1.942,1.942,0,0,1,300.743,258.319Z" transform="translate(-296.859 -256.377)" fill="#fff"/>
+        <path id="Pfad_67486" data-name="Pfad 67486" d="M307.13,258.319a1.942,1.942,0,1,1-1.942-1.942A1.942,1.942,0,0,1,307.13,258.319Z" transform="translate(-295.186 -256.377)" fill="#fff"/>
+        <path id="Pfad_67487" data-name="Pfad 67487" d="M313.517,258.319a1.942,1.942,0,1,1-1.942-1.942A1.942,1.942,0,0,1,313.517,258.319Z" transform="translate(-293.513 -256.377)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Gruppe_25090" data-name="Gruppe 25090" transform="translate(411.757 193.239)">
+      <path id="Pfad_67523" data-name="Pfad 67523" d="M2.878,0H144.685a2.878,2.878,0,0,1,2.878,2.878V40.3a2.878,2.878,0,0,1-2.878,2.878H2.878A2.878,2.878,0,0,1,0,40.3V2.878A2.878,2.878,0,0,1,2.878,0Z" fill="#e1f3f8" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Gruppe_25089" data-name="Gruppe 25089" transform="translate(10.418 9.719)">
+        <g id="Gruppe_25088" data-name="Gruppe 25088">
+          <g id="Gruppe_25085" data-name="Gruppe 25085">
+            <rect id="Rechteck_5223" data-name="Rechteck 5223" width="126.728" height="4.725" fill="#fff"/>
+          </g>
+          <g id="Gruppe_25086" data-name="Gruppe 25086" transform="translate(0 9.505)">
+            <rect id="Rechteck_5224" data-name="Rechteck 5224" width="126.728" height="4.725" fill="#fff"/>
+          </g>
+          <g id="Gruppe_25087" data-name="Gruppe 25087" transform="translate(0 19.009)">
+            <rect id="Rechteck_5225" data-name="Rechteck 5225" width="126.728" height="4.725" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_25104" data-name="Gruppe 25104" transform="translate(440.352 253.764)">
+      <path id="Pfad_67522" data-name="Pfad 67522" d="M2.878,0H134.053a2.878,2.878,0,0,1,2.878,2.878V32.563a2.878,2.878,0,0,1-2.878,2.878H2.878A2.878,2.878,0,0,1,0,32.563V2.878A2.878,2.878,0,0,1,2.878,0Z" fill="#e1f3f8" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Gruppe_25103" data-name="Gruppe 25103" transform="translate(5.101 7.961)">
+        <g id="Gruppe_25102" data-name="Gruppe 25102">
+          <g id="Gruppe_25099" data-name="Gruppe 25099">
+            <rect id="Rechteck_5239" data-name="Rechteck 5239" width="126.728" height="3.886" fill="#fff"/>
+          </g>
+          <g id="Gruppe_25100" data-name="Gruppe 25100" transform="translate(0 7.817)">
+            <rect id="Rechteck_5240" data-name="Rechteck 5240" width="126.728" height="3.886" fill="#fff"/>
+          </g>
+          <g id="Gruppe_25101" data-name="Gruppe 25101" transform="translate(0 15.633)">
+            <rect id="Rechteck_5241" data-name="Rechteck 5241" width="126.728" height="3.886" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_25106" data-name="Gruppe 25106" transform="translate(408.132 300.159)">
+      <rect id="Rechteck_5242" data-name="Rechteck 5242" width="136.931" height="35.441" rx="3" fill="#e1f3f8" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Gruppe_25105" data-name="Gruppe 25105" transform="translate(5.101 7.961)">
+        <rect id="Rechteck_5243" data-name="Rechteck 5243" width="126.728" height="3.886" fill="#fff"/>
+        <rect id="Rechteck_5244" data-name="Rechteck 5244" width="126.728" height="3.886" transform="translate(0 7.817)" fill="#fff"/>
+        <rect id="Rechteck_5245" data-name="Rechteck 5245" width="126.728" height="3.886" transform="translate(0 15.633)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Gruppe_25285" data-name="Gruppe 25285" transform="translate(456.724 122.913)">
+      <path id="Pfad_67490" data-name="Pfad 67490" d="M672.373,111.869V280.226a9.249,9.249,0,0,1-9.246,9.246H432.245A9.25,9.25,0,0,1,423,280.226V111.869a9.25,9.25,0,0,1,9.247-9.246H663.127A9.249,9.249,0,0,1,672.373,111.869Z" transform="translate(-422.998 -102.623)" fill="url(#linear-gradient-5)"/>
+      <path id="Pfad_67518" data-name="Pfad 67518" d="M0,0H227.447V164.921H0Z" transform="translate(10.895 11.033)" fill="#fff"/>
+      <g id="Gruppe_25200" data-name="Gruppe 25200" transform="translate(19.416 90.875)">
+        <g id="Gruppe_25199" data-name="Gruppe 25199">
+          <g id="Gruppe_25110" data-name="Gruppe 25110" transform="translate(30.209 6.916)">
+            <g id="Gruppe_25109" data-name="Gruppe 25109">
+              <g id="Gruppe_25107" data-name="Gruppe 25107" transform="translate(0 5.645)">
+                <rect id="Rechteck_5247" data-name="Rechteck 5247" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25108" data-name="Gruppe 25108" transform="translate(2.916)">
+                <rect id="Rechteck_5248" data-name="Rechteck 5248" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25114" data-name="Gruppe 25114" transform="translate(87.754 35.058)">
+            <g id="Gruppe_25113" data-name="Gruppe 25113">
+              <g id="Gruppe_25111" data-name="Gruppe 25111" transform="translate(0 5.645)">
+                <rect id="Rechteck_5249" data-name="Rechteck 5249" width="6.451" height="27.541" rx="0.836" fill="#55c89d"/>
+              </g>
+              <g id="Gruppe_25112" data-name="Gruppe 25112" transform="translate(2.915)">
+                <rect id="Rechteck_5250" data-name="Rechteck 5250" width="0.62" height="39.265" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25118" data-name="Gruppe 25118" transform="translate(123.403 32.907)">
+            <g id="Gruppe_25117" data-name="Gruppe 25117">
+              <g id="Gruppe_25115" data-name="Gruppe 25115" transform="translate(0 5.645)">
+                <rect id="Rechteck_5251" data-name="Rechteck 5251" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25116" data-name="Gruppe 25116" transform="translate(2.915)">
+                <rect id="Rechteck_5252" data-name="Rechteck 5252" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25122" data-name="Gruppe 25122" transform="translate(10.111 9.832)">
+            <g id="Gruppe_25121" data-name="Gruppe 25121">
+              <g id="Gruppe_25119" data-name="Gruppe 25119" transform="translate(0 5.645)">
+                <rect id="Rechteck_5253" data-name="Rechteck 5253" width="6.451" height="27.541" rx="0.836" fill="#55c89d"/>
+              </g>
+              <g id="Gruppe_25120" data-name="Gruppe 25120" transform="translate(2.915)">
+                <rect id="Rechteck_5254" data-name="Rechteck 5254" width="0.62" height="39.265" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25126" data-name="Gruppe 25126" transform="translate(186.4 37.745)">
+            <g id="Gruppe_25125" data-name="Gruppe 25125">
+              <g id="Gruppe_25123" data-name="Gruppe 25123" transform="translate(0 5.645)">
+                <rect id="Rechteck_5255" data-name="Rechteck 5255" width="6.451" height="27.541" rx="0.836" fill="#55c89d"/>
+              </g>
+              <g id="Gruppe_25124" data-name="Gruppe 25124" transform="translate(2.915)">
+                <rect id="Rechteck_5256" data-name="Rechteck 5256" width="0.62" height="39.265" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25130" data-name="Gruppe 25130" transform="translate(159.231 8.941)">
+            <g id="Gruppe_25129" data-name="Gruppe 25129">
+              <g id="Gruppe_25127" data-name="Gruppe 25127" transform="translate(0 5.645)">
+                <rect id="Rechteck_5257" data-name="Rechteck 5257" width="6.451" height="27.541" rx="0.836" fill="#55c89d"/>
+              </g>
+              <g id="Gruppe_25128" data-name="Gruppe 25128" transform="translate(2.915)">
+                <rect id="Rechteck_5258" data-name="Rechteck 5258" width="0.62" height="39.265" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25134" data-name="Gruppe 25134" transform="translate(69.139 3.009)">
+            <g id="Gruppe_25133" data-name="Gruppe 25133">
+              <g id="Gruppe_25131" data-name="Gruppe 25131" transform="translate(0 5.645)">
+                <rect id="Rechteck_5259" data-name="Rechteck 5259" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25132" data-name="Gruppe 25132" transform="translate(2.915)">
+                <rect id="Rechteck_5260" data-name="Rechteck 5260" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25138" data-name="Gruppe 25138" transform="translate(149.927 34.024)">
+            <g id="Gruppe_25137" data-name="Gruppe 25137">
+              <g id="Gruppe_25135" data-name="Gruppe 25135" transform="translate(0 5.645)">
+                <rect id="Rechteck_5261" data-name="Rechteck 5261" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25136" data-name="Gruppe 25136" transform="translate(2.915)">
+                <rect id="Rechteck_5262" data-name="Rechteck 5262" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25142" data-name="Gruppe 25142" transform="translate(194.96 18.392)">
+            <g id="Gruppe_25141" data-name="Gruppe 25141">
+              <g id="Gruppe_25139" data-name="Gruppe 25139" transform="translate(0 5.645)">
+                <rect id="Rechteck_5263" data-name="Rechteck 5263" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25140" data-name="Gruppe 25140" transform="translate(2.915)">
+                <rect id="Rechteck_5264" data-name="Rechteck 5264" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25146" data-name="Gruppe 25146" transform="translate(105.385 12.799)">
+            <g id="Gruppe_25145" data-name="Gruppe 25145">
+              <g id="Gruppe_25143" data-name="Gruppe 25143" transform="translate(0 23.944)">
+                <rect id="Rechteck_5265" data-name="Rechteck 5265" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25144" data-name="Gruppe 25144" transform="translate(2.915)">
+                <rect id="Rechteck_5266" data-name="Rechteck 5266" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25150" data-name="Gruppe 25150" transform="translate(40.692 14.701)">
+            <g id="Gruppe_25149" data-name="Gruppe 25149">
+              <g id="Gruppe_25147" data-name="Gruppe 25147" transform="translate(0 23.944)">
+                <rect id="Rechteck_5267" data-name="Rechteck 5267" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25148" data-name="Gruppe 25148" transform="translate(2.916)">
+                <rect id="Rechteck_5268" data-name="Rechteck 5268" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25154" data-name="Gruppe 25154" transform="translate(95.715 8.625)">
+            <g id="Gruppe_25153" data-name="Gruppe 25153">
+              <g id="Gruppe_25151" data-name="Gruppe 25151" transform="translate(0 16.779)">
+                <rect id="Rechteck_5269" data-name="Rechteck 5269" width="6.451" height="16.407" rx="0.645" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25152" data-name="Gruppe 25152" transform="translate(2.915)">
+                <rect id="Rechteck_5270" data-name="Rechteck 5270" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25158" data-name="Gruppe 25158" transform="translate(50.803 28.922)">
+            <g id="Gruppe_25157" data-name="Gruppe 25157">
+              <g id="Gruppe_25155" data-name="Gruppe 25155" transform="translate(0 16.779)">
+                <rect id="Rechteck_5271" data-name="Rechteck 5271" width="6.451" height="16.407" rx="0.645" fill="#55c89d"/>
+              </g>
+              <g id="Gruppe_25156" data-name="Gruppe 25156" transform="translate(2.915)">
+                <rect id="Rechteck_5272" data-name="Rechteck 5272" width="0.62" height="39.265" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25162" data-name="Gruppe 25162" transform="translate(141.181 15.756)">
+            <g id="Gruppe_25161" data-name="Gruppe 25161">
+              <g id="Gruppe_25159" data-name="Gruppe 25159" transform="translate(0 28.968)">
+                <rect id="Rechteck_5273" data-name="Rechteck 5273" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25160" data-name="Gruppe 25160" transform="translate(2.915)">
+                <rect id="Rechteck_5274" data-name="Rechteck 5274" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25166" data-name="Gruppe 25166" transform="translate(0 8.064)">
+            <g id="Gruppe_25165" data-name="Gruppe 25165">
+              <g id="Gruppe_25163" data-name="Gruppe 25163" transform="translate(0 28.968)">
+                <rect id="Rechteck_5275" data-name="Rechteck 5275" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25164" data-name="Gruppe 25164" transform="translate(2.916)">
+                <rect id="Rechteck_5276" data-name="Rechteck 5276" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25170" data-name="Gruppe 25170" transform="translate(77.662 20.532)">
+            <g id="Gruppe_25169" data-name="Gruppe 25169">
+              <g id="Gruppe_25167" data-name="Gruppe 25167" transform="translate(0 23.944)">
+                <rect id="Rechteck_5277" data-name="Rechteck 5277" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25168" data-name="Gruppe 25168" transform="translate(2.915)">
+                <rect id="Rechteck_5278" data-name="Rechteck 5278" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25174" data-name="Gruppe 25174" transform="translate(21.835 12.096)">
+            <g id="Gruppe_25173" data-name="Gruppe 25173">
+              <g id="Gruppe_25171" data-name="Gruppe 25171" transform="translate(0 23.944)">
+                <rect id="Rechteck_5279" data-name="Rechteck 5279" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25172" data-name="Gruppe 25172" transform="translate(2.915)">
+                <rect id="Rechteck_5280" data-name="Rechteck 5280" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25178" data-name="Gruppe 25178" transform="translate(114.604 3.188)">
+            <g id="Gruppe_25177" data-name="Gruppe 25177">
+              <g id="Gruppe_25175" data-name="Gruppe 25175" transform="translate(0 16.779)">
+                <rect id="Rechteck_5281" data-name="Rechteck 5281" width="6.451" height="16.407" rx="0.645" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25176" data-name="Gruppe 25176" transform="translate(2.915)">
+                <rect id="Rechteck_5282" data-name="Rechteck 5282" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25182" data-name="Gruppe 25182" transform="translate(58.623)">
+            <g id="Gruppe_25181" data-name="Gruppe 25181">
+              <g id="Gruppe_25179" data-name="Gruppe 25179" transform="translate(0 28.968)">
+                <rect id="Rechteck_5283" data-name="Rechteck 5283" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25180" data-name="Gruppe 25180" transform="translate(2.916)">
+                <rect id="Rechteck_5284" data-name="Rechteck 5284" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25186" data-name="Gruppe 25186" transform="translate(178.15 17.865)">
+            <g id="Gruppe_25185" data-name="Gruppe 25185">
+              <g id="Gruppe_25183" data-name="Gruppe 25183" transform="translate(0 28.968)">
+                <rect id="Rechteck_5285" data-name="Rechteck 5285" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25184" data-name="Gruppe 25184" transform="translate(2.915)">
+                <rect id="Rechteck_5286" data-name="Rechteck 5286" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25190" data-name="Gruppe 25190" transform="translate(206.064 27.914)">
+            <g id="Gruppe_25189" data-name="Gruppe 25189">
+              <g id="Gruppe_25187" data-name="Gruppe 25187" transform="translate(0 28.968)">
+                <rect id="Rechteck_5287" data-name="Rechteck 5287" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25188" data-name="Gruppe 25188" transform="translate(2.915)">
+                <rect id="Rechteck_5288" data-name="Rechteck 5288" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25194" data-name="Gruppe 25194" transform="translate(132.329 4.204)">
+            <g id="Gruppe_25193" data-name="Gruppe 25193">
+              <g id="Gruppe_25191" data-name="Gruppe 25191" transform="translate(0 10.266)">
+                <rect id="Rechteck_5289" data-name="Rechteck 5289" width="6.451" height="22.92" rx="0.762" fill="#55c89d"/>
+              </g>
+              <g id="Gruppe_25192" data-name="Gruppe 25192" transform="translate(2.915)">
+                <rect id="Rechteck_5290" data-name="Rechteck 5290" width="0.62" height="39.265" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25198" data-name="Gruppe 25198" transform="translate(168.288 36.877)">
+            <g id="Gruppe_25197" data-name="Gruppe 25197">
+              <g id="Gruppe_25195" data-name="Gruppe 25195" transform="translate(0 10.266)">
+                <rect id="Rechteck_5291" data-name="Rechteck 5291" width="6.451" height="22.92" rx="0.762" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25196" data-name="Gruppe 25196" transform="translate(2.915)">
+                <rect id="Rechteck_5292" data-name="Rechteck 5292" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Pfad_67491" data-name="Pfad 67491" d="M672.373,111.869V126.1H423V111.869a9.25,9.25,0,0,1,9.247-9.246H663.127A9.249,9.249,0,0,1,672.373,111.869Z" transform="translate(-422.998 -102.623)" fill="#00b8d8"/>
+      <g id="Gruppe_25280" data-name="Gruppe 25280" transform="translate(19.416 33.117)">
+        <g id="Gruppe_25279" data-name="Gruppe 25279">
+          <g id="Gruppe_25204" data-name="Gruppe 25204" transform="translate(30.209 9.337)">
+            <g id="Gruppe_25203" data-name="Gruppe 25203">
+              <g id="Gruppe_25201" data-name="Gruppe 25201" transform="translate(0 5.645)">
+                <rect id="Rechteck_5293" data-name="Rechteck 5293" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25202" data-name="Gruppe 25202" transform="translate(2.916)">
+                <rect id="Rechteck_5294" data-name="Rechteck 5294" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25208" data-name="Gruppe 25208" transform="translate(85.391 3.112)">
+            <g id="Gruppe_25207" data-name="Gruppe 25207">
+              <g id="Gruppe_25205" data-name="Gruppe 25205" transform="translate(0 5.645)">
+                <rect id="Rechteck_5295" data-name="Rechteck 5295" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25206" data-name="Gruppe 25206" transform="translate(2.915)">
+                <rect id="Rechteck_5296" data-name="Rechteck 5296" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25212" data-name="Gruppe 25212" transform="translate(120.31 15.782)">
+            <g id="Gruppe_25211" data-name="Gruppe 25211">
+              <g id="Gruppe_25209" data-name="Gruppe 25209" transform="translate(0 5.645)">
+                <rect id="Rechteck_5297" data-name="Rechteck 5297" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25210" data-name="Gruppe 25210" transform="translate(2.915)">
+                <rect id="Rechteck_5298" data-name="Rechteck 5298" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25214" data-name="Gruppe 25214" transform="translate(10.111 12.253)">
+            <g id="Gruppe_25213" data-name="Gruppe 25213">
+              <rect id="Rechteck_5299" data-name="Rechteck 5299" width="6.451" height="27.541" rx="0.836" transform="translate(0 5.645)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5300" data-name="Rechteck 5300" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25218" data-name="Gruppe 25218" transform="translate(184.682)">
+            <g id="Gruppe_25217" data-name="Gruppe 25217">
+              <g id="Gruppe_25215" data-name="Gruppe 25215" transform="translate(0 5.645)">
+                <rect id="Rechteck_5301" data-name="Rechteck 5301" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25216" data-name="Gruppe 25216" transform="translate(2.915)">
+                <rect id="Rechteck_5302" data-name="Rechteck 5302" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25222" data-name="Gruppe 25222" transform="translate(159.231 20.813)">
+            <g id="Gruppe_25221" data-name="Gruppe 25221">
+              <g id="Gruppe_25219" data-name="Gruppe 25219" transform="translate(0 5.645)">
+                <rect id="Rechteck_5303" data-name="Rechteck 5303" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25220" data-name="Gruppe 25220" transform="translate(2.915)">
+                <rect id="Rechteck_5304" data-name="Rechteck 5304" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25224" data-name="Gruppe 25224" transform="translate(72.017 5.429)">
+            <g id="Gruppe_25223" data-name="Gruppe 25223">
+              <rect id="Rechteck_5305" data-name="Rechteck 5305" width="6.451" height="27.541" rx="0.836" transform="translate(0 5.645)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5306" data-name="Rechteck 5306" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25226" data-name="Gruppe 25226" transform="translate(149.282 1.863)">
+            <g id="Gruppe_25225" data-name="Gruppe 25225">
+              <rect id="Rechteck_5307" data-name="Rechteck 5307" width="6.451" height="27.541" rx="0.836" transform="translate(0 5.645)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5308" data-name="Rechteck 5308" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25230" data-name="Gruppe 25230" transform="translate(195.82 4.918)">
+            <g id="Gruppe_25229" data-name="Gruppe 25229">
+              <g id="Gruppe_25227" data-name="Gruppe 25227" transform="translate(0 5.645)">
+                <rect id="Rechteck_5309" data-name="Rechteck 5309" width="6.451" height="27.541" rx="0.836" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25228" data-name="Gruppe 25228" transform="translate(2.915)">
+                <rect id="Rechteck_5310" data-name="Rechteck 5310" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25234" data-name="Gruppe 25234" transform="translate(104.426 10.423)">
+            <g id="Gruppe_25233" data-name="Gruppe 25233">
+              <g id="Gruppe_25231" data-name="Gruppe 25231" transform="translate(0 23.944)">
+                <rect id="Rechteck_5311" data-name="Rechteck 5311" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25232" data-name="Gruppe 25232" transform="translate(2.915)">
+                <rect id="Rechteck_5312" data-name="Rechteck 5312" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25238" data-name="Gruppe 25238" transform="translate(40.692 17.122)">
+            <g id="Gruppe_25237" data-name="Gruppe 25237">
+              <g id="Gruppe_25235" data-name="Gruppe 25235" transform="translate(0 23.944)">
+                <rect id="Rechteck_5313" data-name="Rechteck 5313" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25236" data-name="Gruppe 25236" transform="translate(2.916)">
+                <rect id="Rechteck_5314" data-name="Rechteck 5314" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25242" data-name="Gruppe 25242" transform="translate(94.72 10.33)">
+            <g id="Gruppe_25241" data-name="Gruppe 25241">
+              <g id="Gruppe_25239" data-name="Gruppe 25239" transform="translate(0 16.779)">
+                <rect id="Rechteck_5315" data-name="Rechteck 5315" width="6.451" height="16.407" rx="0.645" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25240" data-name="Gruppe 25240" transform="translate(2.915)">
+                <rect id="Rechteck_5316" data-name="Rechteck 5316" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25246" data-name="Gruppe 25246" transform="translate(50.803 6.856)">
+            <g id="Gruppe_25245" data-name="Gruppe 25245">
+              <g id="Gruppe_25243" data-name="Gruppe 25243" transform="translate(0 16.779)">
+                <rect id="Rechteck_5317" data-name="Rechteck 5317" width="6.451" height="16.407" rx="0.645" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25244" data-name="Gruppe 25244" transform="translate(2.915)">
+                <rect id="Rechteck_5318" data-name="Rechteck 5318" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25250" data-name="Gruppe 25250" transform="translate(141.181 18.177)">
+            <g id="Gruppe_25249" data-name="Gruppe 25249">
+              <g id="Gruppe_25247" data-name="Gruppe 25247" transform="translate(0 28.968)">
+                <rect id="Rechteck_5319" data-name="Rechteck 5319" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25248" data-name="Gruppe 25248" transform="translate(2.915)">
+                <rect id="Rechteck_5320" data-name="Rechteck 5320" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25254" data-name="Gruppe 25254" transform="translate(0 10.485)">
+            <g id="Gruppe_25253" data-name="Gruppe 25253">
+              <g id="Gruppe_25251" data-name="Gruppe 25251" transform="translate(0 28.968)">
+                <rect id="Rechteck_5321" data-name="Rechteck 5321" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25252" data-name="Gruppe 25252" transform="translate(2.916)">
+                <rect id="Rechteck_5322" data-name="Rechteck 5322" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25258" data-name="Gruppe 25258" transform="translate(77.662 22.953)">
+            <g id="Gruppe_25257" data-name="Gruppe 25257">
+              <g id="Gruppe_25255" data-name="Gruppe 25255" transform="translate(0 23.944)">
+                <rect id="Rechteck_5323" data-name="Rechteck 5323" width="6.451" height="9.242" rx="0.484" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25256" data-name="Gruppe 25256" transform="translate(2.915)">
+                <rect id="Rechteck_5324" data-name="Rechteck 5324" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25260" data-name="Gruppe 25260" transform="translate(21.835 14.517)">
+            <g id="Gruppe_25259" data-name="Gruppe 25259">
+              <rect id="Rechteck_5325" data-name="Rechteck 5325" width="6.451" height="9.242" rx="0.484" transform="translate(0 23.944)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5326" data-name="Rechteck 5326" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25262" data-name="Gruppe 25262" transform="translate(113.44 24.125)">
+            <g id="Gruppe_25261" data-name="Gruppe 25261">
+              <rect id="Rechteck_5327" data-name="Rechteck 5327" width="6.451" height="16.407" rx="0.645" transform="translate(0 16.779)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5328" data-name="Rechteck 5328" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25266" data-name="Gruppe 25266" transform="translate(60.541 2.421)">
+            <g id="Gruppe_25265" data-name="Gruppe 25265">
+              <g id="Gruppe_25263" data-name="Gruppe 25263" transform="translate(0 28.968)">
+                <rect id="Rechteck_5329" data-name="Rechteck 5329" width="6.451" height="4.218" rx="0.327" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25264" data-name="Gruppe 25264" transform="translate(2.916)">
+                <rect id="Rechteck_5330" data-name="Rechteck 5330" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25268" data-name="Gruppe 25268" transform="translate(178.15 20.286)">
+            <g id="Gruppe_25267" data-name="Gruppe 25267">
+              <rect id="Rechteck_5331" data-name="Rechteck 5331" width="6.451" height="4.218" rx="0.327" transform="translate(0 28.968)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5332" data-name="Rechteck 5332" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25270" data-name="Gruppe 25270" transform="translate(205.634 30.549)">
+            <g id="Gruppe_25269" data-name="Gruppe 25269">
+              <rect id="Rechteck_5333" data-name="Rechteck 5333" width="6.451" height="4.218" rx="0.327" transform="translate(0 28.968)" fill="#ff8fa5"/>
+              <rect id="Rechteck_5334" data-name="Rechteck 5334" width="0.62" height="39.265" transform="translate(2.915)" fill="#ff8fa5"/>
+            </g>
+          </g>
+          <g id="Gruppe_25274" data-name="Gruppe 25274" transform="translate(131.169 25.527)">
+            <g id="Gruppe_25273" data-name="Gruppe 25273">
+              <g id="Gruppe_25271" data-name="Gruppe 25271" transform="translate(0 10.266)">
+                <rect id="Rechteck_5335" data-name="Rechteck 5335" width="6.451" height="22.92" rx="0.762" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25272" data-name="Gruppe 25272" transform="translate(2.915)">
+                <rect id="Rechteck_5336" data-name="Rechteck 5336" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+          <g id="Gruppe_25278" data-name="Gruppe 25278" transform="translate(168.717 25.336)">
+            <g id="Gruppe_25277" data-name="Gruppe 25277">
+              <g id="Gruppe_25275" data-name="Gruppe 25275" transform="translate(0 10.266)">
+                <rect id="Rechteck_5337" data-name="Rechteck 5337" width="6.451" height="22.92" rx="0.762" fill="#d7eff6"/>
+              </g>
+              <g id="Gruppe_25276" data-name="Gruppe 25276" transform="translate(2.915)">
+                <rect id="Rechteck_5338" data-name="Rechteck 5338" width="0.62" height="39.265" fill="#d7eff6"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Gruppe_25284" data-name="Gruppe 25284" transform="translate(15.419 7.645)">
+        <g id="Gruppe_25283" data-name="Gruppe 25283">
+          <path id="Pfad_67492" data-name="Pfad 67492" d="M441.831,111.987a3.307,3.307,0,1,1-3.307-3.306A3.308,3.308,0,0,1,441.831,111.987Z" transform="translate(-435.217 -108.681)" fill="#90ebc8"/>
+          <g id="Gruppe_25281" data-name="Gruppe 25281" transform="translate(11.322 0)">
+            <circle id="Ellipse_1248" data-name="Ellipse 1248" cx="3.306" cy="3.306" r="3.306" fill="#f5fbfd"/>
+          </g>
+          <g id="Gruppe_25282" data-name="Gruppe 25282" transform="translate(22.644)">
+            <path id="Pfad_67493" data-name="Pfad 67493" d="M459.773,111.987a3.306,3.306,0,1,1-3.306-3.306A3.307,3.307,0,0,1,459.773,111.987Z" transform="translate(-453.161 -108.681)" fill="#f5fbfd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_25293" data-name="Gruppe 25293" transform="translate(239.329 200.157)">
+      <path id="Pfad_67634" data-name="Pfad 67634" d="M-5332.482,1057.082l-23.412-33.681a1.4,1.4,0,0,0-1.89-.329c-.082.082-.246.164-.328.329l-23.988,33.188a1.338,1.338,0,0,0,.329,1.89,1.425,1.425,0,0,0,1.15.246l11.172-2.957v52.489a1.648,1.648,0,0,0,1.643,1.643h21.523a1.648,1.648,0,0,0,1.643-1.643v-51.832l10.679,2.711a1.344,1.344,0,0,0,1.643-.986A1.571,1.571,0,0,0-5332.482,1057.082Z" transform="translate(5382.599 -1025.015)" fill="url(#linear-gradient-6)"/>
+      <path id="Pfad_67635" data-name="Pfad 67635" d="M-5274.486,1084.766a1.425,1.425,0,0,0-1.15-.246l-11.254,3.039v-52.407a1.648,1.648,0,0,0-1.643-1.643h-21.523a1.648,1.648,0,0,0-1.643,1.643v51.586l-10.679-2.711a1.344,1.344,0,0,0-1.643.986,1.566,1.566,0,0,0,.165,1.068l23.412,33.681a1.4,1.4,0,0,0,1.89.329c.082-.082.246-.164.328-.329l23.988-33.188A1.243,1.243,0,0,0-5274.486,1084.766Z" transform="translate(5395.769 -1031.015)" fill="url(#linear-gradient-7)"/>
+      <text id="SELL" transform="translate(88.059 69.604)" fill="#f8fafb" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">SELL</tspan></text>
+      <text id="BUY" transform="translate(17.558 22.4)" fill="#f8fafb" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">BUY</tspan></text>
+    </g>
+    <g id="Gruppe_25311" data-name="Gruppe 25311" transform="translate(101.185 185.847)">
+      <g id="Gruppe_25295" data-name="Gruppe 25295" transform="translate(-27)">
+        <path id="Pfad_67498" data-name="Pfad 67498" d="M208.367,161.328V339.89a8.835,8.835,0,0,1-8.833,8.833H100.953a8.827,8.827,0,0,1-8.833-8.833V161.328a8.835,8.835,0,0,1,8.833-8.833h98.581A8.843,8.843,0,0,1,208.367,161.328Z" transform="translate(-92.12 -152.495)" fill="url(#linear-gradient-8)"/>
+        <path id="Pfad_67520" data-name="Pfad 67520" d="M.959,0H179.124a.959.959,0,0,1,.959.959v99.183a.959.959,0,0,1-.959.959H.959A.959.959,0,0,1,0,100.143V77.054H5.488a1.564,1.564,0,0,0,1.318-.641,2.7,2.7,0,0,0,.5-1.609L7.317,27.57a2.66,2.66,0,0,0-.558-1.876,2.264,2.264,0,0,0-1.533-.641H0V.959A.959.959,0,0,1,.959,0Z" transform="translate(108.671 7.575) rotate(90)" fill="#fff"/>
+        <rect id="Rechteck_5478" data-name="Rechteck 5478" width="28" height="2" rx="1" transform="translate(44.618 6.287)" fill="#fff"/>
+      </g>
+      <g id="Gruppe_25310" data-name="Gruppe 25310" transform="translate(-2.725 63.659)">
+        <path id="Pfad_67503" data-name="Pfad 67503" d="M143.217,232.988a20.847,20.847,0,1,1,20.847-20.847A20.87,20.87,0,0,1,143.217,232.988Z" transform="translate(-108.473 -177.398)" fill="url(#linear-gradient-9)"/>
+        <text id="_12_" data-name="+12%" transform="translate(21.366 37.548)" fill="#f8fafb" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">+12%</tspan></text>
+        <g id="Gruppe_25299" data-name="Gruppe 25299">
+          <g id="Gruppe_25298" data-name="Gruppe 25298">
+            <g id="Gruppe_25297" data-name="Gruppe 25297">
+              <g id="Gruppe_25296" data-name="Gruppe 25296">
+                <path id="Pfad_67504" data-name="Pfad 67504" d="M146.1,249.769a34.744,34.744,0,1,1,34.744-34.744A34.784,34.784,0,0,1,146.1,249.769Zm0-67.468a32.725,32.725,0,1,0,32.724,32.724A32.761,32.761,0,0,0,146.1,182.3Z" transform="translate(-111.357 -180.282)" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25303" data-name="Gruppe 25303" transform="translate(6.443 6.443)">
+          <g id="Gruppe_25302" data-name="Gruppe 25302">
+            <g id="Gruppe_25301" data-name="Gruppe 25301">
+              <g id="Gruppe_25300" data-name="Gruppe 25300">
+                <path id="Pfad_67505" data-name="Pfad 67505" d="M144.764,241.989a28.3,28.3,0,1,1,28.3-28.3A28.333,28.333,0,0,1,144.764,241.989Zm0-54.581a26.281,26.281,0,1,0,26.281,26.281A26.311,26.311,0,0,0,144.764,187.407Z" transform="translate(-116.463 -185.388)" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25306" data-name="Gruppe 25306" transform="translate(34.744)">
+          <g id="Gruppe_25305" data-name="Gruppe 25305">
+            <g id="Gruppe_25304" data-name="Gruppe 25304">
+              <path id="Pfad_67506" data-name="Pfad 67506" d="M138.89,249.769V247.75a32.725,32.725,0,0,0,0-65.449v-2.019a34.744,34.744,0,1,1,0,69.487Z" transform="translate(-138.89 -180.282)" fill="#90ebc8"/>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25309" data-name="Gruppe 25309" transform="translate(11.63 6.446)">
+          <g id="Gruppe_25308" data-name="Gruppe 25308">
+            <g id="Gruppe_25307" data-name="Gruppe 25307">
+              <path id="Pfad_67507" data-name="Pfad 67507" d="M166.8,230.017l-1.649-1.166a26.28,26.28,0,0,0-42.929-30.328l-1.651-1.166a28.3,28.3,0,0,1,46.229,32.66Z" transform="translate(-120.573 -185.39)" fill="#90ebc8"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Gruppe_25330" data-name="Gruppe 25330" transform="translate(132.982 139.534)">
+        <circle id="Ellipse_1289" data-name="Ellipse 1289" cx="29.5" cy="29.5" r="29.5" transform="translate(-4.364 -4.247)" fill="#fff"/>
+        <circle id="Ellipse_1290" data-name="Ellipse 1290" cx="29.5" cy="29.5" r="29.5" transform="translate(65.636 -4.247)" fill="#fff"/>
+        <path id="Pfad_67503-2" data-name="Pfad 67503" d="M137.717,221.989a15.348,15.348,0,1,1,15.348-15.348A15.364,15.364,0,0,1,137.717,221.989Z" transform="translate(-112.139 -181.063)" fill="url(#linear-gradient-9)"/>
+        <text id="_16_" data-name="+16%" transform="translate(15.045 27.847)" fill="#f8fafb" font-size="8" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">+16%</tspan></text>
+        <g id="Gruppe_25299-2" data-name="Gruppe 25299" transform="translate(-0.001 0)">
+          <g id="Gruppe_25298-2" data-name="Gruppe 25298">
+            <g id="Gruppe_25297-2" data-name="Gruppe 25297">
+              <g id="Gruppe_25296-2" data-name="Gruppe 25296">
+                <path id="Pfad_67504-2" data-name="Pfad 67504" d="M136.936,231.439a25.579,25.579,0,1,1,25.579-25.579A25.608,25.608,0,0,1,136.936,231.439Zm0-49.671a24.092,24.092,0,1,0,24.091,24.092A24.119,24.119,0,0,0,136.936,181.768Z" transform="translate(-111.357 -180.282)" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25303-2" data-name="Gruppe 25303" transform="translate(4.743 4.744)">
+          <g id="Gruppe_25302-2" data-name="Gruppe 25302">
+            <g id="Gruppe_25301-2" data-name="Gruppe 25301">
+              <g id="Gruppe_25300-2" data-name="Gruppe 25300">
+                <path id="Pfad_67505-2" data-name="Pfad 67505" d="M137.3,227.058a20.835,20.835,0,1,1,20.835-20.835A20.859,20.859,0,0,1,137.3,227.058Zm0-40.183a19.348,19.348,0,1,0,19.348,19.348A19.37,19.37,0,0,0,137.3,186.874Z" transform="translate(-116.463 -185.388)" fill="#55c89d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25306-2" data-name="Gruppe 25306" transform="translate(25.578 0)">
+          <g id="Gruppe_25305-2" data-name="Gruppe 25305">
+            <g id="Gruppe_25304-2" data-name="Gruppe 25304">
+              <path id="Pfad_67506-2" data-name="Pfad 67506" d="M138.89,231.439v-1.486a24.092,24.092,0,0,0,0-48.184v-1.486a25.579,25.579,0,1,1,0,51.157Z" transform="translate(-138.89 -180.282)" fill="#90ebc8"/>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25309-2" data-name="Gruppe 25309" transform="translate(8.561 4.746)">
+          <g id="Gruppe_25308-2" data-name="Gruppe 25308">
+            <g id="Gruppe_25307-2" data-name="Gruppe 25307">
+              <path id="Pfad_67507-2" data-name="Pfad 67507" d="M154.607,218.245l-1.214-.858a19.348,19.348,0,0,0-31.6-22.327l-1.215-.858a20.835,20.835,0,0,1,34.034,24.044Z" transform="translate(-120.573 -185.39)" fill="#96f2cf"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Gruppe_25331" data-name="Gruppe 25331" transform="translate(202.782 139.534)">
+        <path id="Pfad_67503-3" data-name="Pfad 67503" d="M137.717,221.989a15.348,15.348,0,1,1,15.348-15.348A15.364,15.364,0,0,1,137.717,221.989Z" transform="translate(-112.139 -181.063)" fill="url(#linear-gradient-11)"/>
+        <text id="_-10_" data-name="-10%" transform="translate(15.829 27.847)" fill="#f8fafb" font-size="8" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">-10%</tspan></text>
+        <g id="Gruppe_25299-3" data-name="Gruppe 25299" transform="translate(0 0)">
+          <g id="Gruppe_25298-3" data-name="Gruppe 25298">
+            <g id="Gruppe_25297-3" data-name="Gruppe 25297">
+              <g id="Gruppe_25296-3" data-name="Gruppe 25296">
+                <path id="Pfad_67504-3" data-name="Pfad 67504" d="M136.936,231.439a25.579,25.579,0,1,1,25.579-25.579A25.608,25.608,0,0,1,136.936,231.439Zm0-49.671a24.092,24.092,0,1,0,24.091,24.092A24.119,24.119,0,0,0,136.936,181.768Z" transform="translate(-111.357 -180.282)" fill="#d9647d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25303-3" data-name="Gruppe 25303" transform="translate(4.743 4.744)">
+          <g id="Gruppe_25302-3" data-name="Gruppe 25302">
+            <g id="Gruppe_25301-3" data-name="Gruppe 25301">
+              <g id="Gruppe_25300-3" data-name="Gruppe 25300">
+                <path id="Pfad_67505-3" data-name="Pfad 67505" d="M137.3,227.058a20.835,20.835,0,1,1,20.835-20.835A20.859,20.859,0,0,1,137.3,227.058Zm0-40.183a19.348,19.348,0,1,0,19.348,19.348A19.37,19.37,0,0,0,137.3,186.874Z" transform="translate(-116.463 -185.388)" fill="#d9647d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25306-3" data-name="Gruppe 25306" transform="translate(25.579 0)">
+          <g id="Gruppe_25305-3" data-name="Gruppe 25305">
+            <g id="Gruppe_25304-3" data-name="Gruppe 25304">
+              <path id="Pfad_67506-3" data-name="Pfad 67506" d="M138.89,231.439v-1.486a24.092,24.092,0,0,0,0-48.184v-1.486a25.579,25.579,0,1,1,0,51.157Z" transform="translate(-138.89 -180.282)" fill="#ff8fa5"/>
+            </g>
+          </g>
+        </g>
+        <g id="Gruppe_25309-3" data-name="Gruppe 25309" transform="translate(8.562 4.746)">
+          <g id="Gruppe_25308-3" data-name="Gruppe 25308">
+            <g id="Gruppe_25307-3" data-name="Gruppe 25307">
+              <path id="Pfad_67507-3" data-name="Pfad 67507" d="M154.607,218.245l-1.214-.858a19.348,19.348,0,0,0-31.6-22.327l-1.215-.858a20.835,20.835,0,0,1,34.034,24.044Z" transform="translate(-120.573 -185.39)" fill="#ff8fa5"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_25632" data-name="Gruppe 25632" transform="translate(-493.478 -2412.851)">
+      <circle id="Ellipse_1234" data-name="Ellipse 1234" cx="27.641" cy="27.641" r="27.641" transform="translate(1121 2748.5)" fill="url(#linear-gradient-12)"/>
+      <path id="Pfad_67384" data-name="Pfad 67384" d="M7.758,19.529l8.088,8.088,15-15" transform="translate(1129.05 2755.784)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g id="Gruppe_25633" data-name="Gruppe 25633" transform="translate(-882.478 -2659.851)">
+      <circle id="Ellipse_1234-2" data-name="Ellipse 1234" cx="27.641" cy="27.641" r="27.641" transform="translate(1121 2748.5)" fill="url(#linear-gradient-12)"/>
+      <g id="Gruppe_25634" data-name="Gruppe 25634" transform="translate(1136.105 2761.401)">
+        <g id="Gruppe_25312" data-name="Gruppe 25312">
+          <rect id="Rechteck_5342" data-name="Rechteck 5342" width="6.714" height="13.434" transform="translate(0 12.807)" fill="#fff"/>
+          <path id="Pfad_67509" data-name="Pfad 67509" d="M122.717,312.864s3.014-3.773,6.955-12.324c.589-1.279,3.622-.183,2.064,5.236a27.121,27.121,0,0,1-1.667,4.918H138.6a1.166,1.166,0,0,1,1.148.9c.619,2.677,1.894,10.631-3.635,14.484a1.272,1.272,0,0,1-.714.218H122.717Z" transform="translate(-114.255 -300.056)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <path id="Differenzmenge_1" data-name="Differenzmenge 1" d="M30.5,61A30.508,30.508,0,0,1,18.629,2.4,30.508,30.508,0,0,1,42.372,58.6,30.305,30.305,0,0,1,30.5,61Zm0-50.834A20.334,20.334,0,1,0,50.833,30.5,20.357,20.357,0,0,0,30.5,10.166Z" transform="translate(621.803 450.134)" fill="#00aac8"/>
+    <path id="Pfad_67644" data-name="Pfad 67644" d="M2.76-130H99.3a2.76,2.76,0,0,1,2.76,2.76v111.68A2.76,2.76,0,0,1,99.3-12.8H2.76A2.76,2.76,0,0,1,0-15.561V-127.24A2.76,2.76,0,0,1,2.76-130Z" transform="translate(551.982 551.562)" fill="url(#linear-gradient-14)"/>
+    <g id="Gruppe_24892" data-name="Gruppe 24892" transform="translate(568.909 469.413)">
+      <g id="Gruppe_24889" data-name="Gruppe 24889" transform="translate(0)">
+        <path id="Pfad_67475" data-name="Pfad 67475" d="M5785.858,574.473c2.876,0,5.917.426,8.6,3.008a11.4,11.4,0,0,1,.163,15.531,11.755,11.755,0,0,1-8.6,3.269h-7.062V574.473Zm-1.865,17.557h1.34a7.86,7.86,0,0,0,4.97-1.471,6.815,6.815,0,0,0,2.123-5.264,6.46,6.46,0,0,0-1.8-4.709,7.2,7.2,0,0,0-5.3-1.863h-1.339Z" transform="translate(-5778.96 -574.473)" fill="#fff"/>
+        <path id="Pfad_67476" data-name="Pfad 67476" d="M5995.935,578.723h-7.292v4.216h5.938v4.25h-5.937v4.838h7.292v4.25h-12.326V574.473h12.326Z" transform="translate(-5963.379 -574.473)" fill="#fff"/>
+      </g>
+      <g id="Gruppe_24891" data-name="Gruppe 24891" transform="translate(54.331)">
+        <g id="Gruppe_24890" data-name="Gruppe 24890" transform="translate(0)">
+          <path id="Pfad_67477" data-name="Pfad 67477" d="M6340.965,574.475h-12.371v4.551h4.582v17.24h5.355v-17.24h5.349Z" transform="translate(-6328.594 -574.475)" fill="#fff"/>
+        </g>
+      </g>
+      <path id="Pfad_67478" data-name="Pfad 67478" d="M6130.087,574.475h-6.049l-4.839,6.71-4.838-6.71h-6.048l7.861,10.9-7.861,10.9h6.048l4.838-6.71,4.839,6.71h6.049l-7.867-10.9Z" transform="translate(-6075.757 -574.475)" fill="#fff"/>
+    </g>
+    <rect id="Rechteck_5219" data-name="Rechteck 5219" width="631.813" height="8.379" transform="translate(73.99 538.273)" fill="#008da6"/>
+  </g>
+</svg>
