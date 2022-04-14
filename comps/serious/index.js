@@ -25,16 +25,16 @@ let FomoIndex = () => {
 }
 
 let TabsOfMain = () => {
-    return <><Tabs defaultActiveKey="profile" id="uncontrolled"
-        style={{ Color: "white", backgroundColor: "#212529", padding: 10 }} >
+    return <><Tabs defaultActiveKey="profile" id="uncontrolled" defaultActiveKey="home"
+        style={{ Color: "white", backgroundColor: "#212529", padding: 10, }} >
         <Tab eventKey="home" title="Home"
             style={{ Color: "white", backgroundColor: "#212529", padding: 10 }} >
             <div><PurchaseTab /></div>
         </Tab>
-        <Tab eventKey="profile" title="Profile" style={{ Color: "white" }}>
+        <Tab eventKey="profile" title="Profile" style={{ Color: "white", backgroundColor: "#212529", }}>
             <div><VaultTab /></div>
         </Tab>
-        <Tab eventKey="contact" title="Contact" style={{ Color: "white" }}>
+        <Tab eventKey="contact" title="Contact" style={{ Color: "white", backgroundColor: "#212529", }}>
             <PurchaseTab />
         </Tab>
     </Tabs></>
@@ -42,7 +42,7 @@ let TabsOfMain = () => {
 
 let PurchaseTab = () => {
     return <><>
-        <div style={{ backgroundColor: "#212529", color: "white" }}>
+        <div style={{ backgroundColor: "#212529", color: "white" ,paddingBottom:"50px"}}>
             <InputGroup className="mb-3">
                 <InputGroup.Text id="basic-addon1"><FaKey/></InputGroup.Text>
                 <FormControl
@@ -92,11 +92,11 @@ let VaultRow = () => {
 
 let ChooseTeam = () => {
     return <>
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ display: "flex",marginTop:"50px" }}>
             <IconEmo />
-            <Divider />
+
             <IconEmo />
-            <Divider />
+            <Divider style={{backgroundColor:"white",borderColor:"white"}} orientation="vertical" />
             <IconEmo />
             <Divider />
             <IconEmo />
@@ -109,7 +109,7 @@ let IconEmo = () => {
         <div style={{
             display: "flex",
             flexDirection: "column", alignItems: "center",
-            height: "200px"
+            height: "200px",borderRight:"2px solid #696969",marginRight:"10px"
         }} >
             <img src="./whale.png" />
             <h3>Snake</h3>
