@@ -2,16 +2,17 @@
 import { Divider, Grid } from "@mui/material";
 import { Container, Tabs, InputGroup, FormGroup, Tab, FormControl, Form, Row, Col, ButtonGroup, Button } from "react-bootstrap"
 import FomoShell from "./shell";
-
+import {FaKey,FaPiggyBank} from "react-icons/fa"
+import {SiBinance} from "react-icons/si"
 
 let FomoIndex = () => {
     return <>
         <FomoShell>
-            <Container>
-                <Container>
+            <Container style={{padding:0}} >
+                <Container style={{padding:0}}>
                     <Row>
-                        <Col xs={6}>  <TabsOfMain /></Col>
-                        <Col xs={6}> <TabsOfRoundTeams /></Col>
+                        <Col md={6}>  <TabsOfMain /></Col>
+                        <Col md={6}> <TabsOfRoundTeams /></Col>
                     </Row></Container>
 
 
@@ -43,41 +44,30 @@ let PurchaseTab = () => {
     return <><>
         <div style={{ backgroundColor: "#212529", color: "white" }}>
             <InputGroup className="mb-3">
-                <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+                <InputGroup.Text id="basic-addon1"><FaKey/></InputGroup.Text>
                 <FormControl
-                    placeholder="Username"
-                    aria-label="Username"
+                    placeholder=""
+                    aria-label=""
                     aria-describedby="basic-addon1"
                 />
+                <InputGroup.Text id="basic-addon1">@ BNB</InputGroup.Text>
             </InputGroup>
 
-            <InputGroup className="mb-3">
-                <FormControl
-                    placeholder="Recipient's username"
-                    aria-label="Recipient's username"
-                    aria-describedby="basic-addon2"
-                />
-                <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
-            </InputGroup>
 
-            <Form.Label htmlFor="basic-url">Your vanity URL</Form.Label>
-            <InputGroup className="mb-3">
-                <InputGroup.Text id="basic-addon3">
-                    https://example.com/users/
-                </InputGroup.Text>
-                <FormControl id="basic-url" aria-describedby="basic-addon3" />
-            </InputGroup>
-
-            <InputGroup className="mb-3">
-                <InputGroup.Text>$</InputGroup.Text>
-                <FormControl aria-label="Amount (to the nearest dollar)" />
-                <InputGroup.Text>.00</InputGroup.Text>
-            </InputGroup>
-            <ButtonGroup size="lg" aria-label="Basic example">
+            <InputGroup>
+            <ButtonGroup size="lg" aria-label="Basic example" style={{display:"flex",flexGrow:"2"}} >
                 <Button variant="secondary">Left</Button>
                 <Button variant="secondary">Middle</Button>
                 <Button variant="secondary">Right</Button>
             </ButtonGroup>
+            </InputGroup>
+            <div style={{display:"flex",flexGrow:"2", 
+            justifyContent:"space-between", marginTop:"50px"
+        }} >
+                <Button style={{width:"40%",backgroundColor:"#f000f0"}} ><SiBinance/> Send BNB</Button>
+                <Button style={{width:"40%",
+                backgroundColor:"transparent",borderColor:"#f000f0"}}><FaPiggyBank/> Use Vault</Button>
+            </div>
             <ChooseTeam />
         </div>
     </></>
