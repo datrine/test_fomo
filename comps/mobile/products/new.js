@@ -1,8 +1,13 @@
 import { GiHamburgerMenu } from "react-icons/gi"
-import { FaSearch, FaTimes } from "react-icons/fa"
+import { FaRegTrashAlt, FaSearch, FaTimes } from "react-icons/fa"
 import { useEffect, useRef, useState } from "react"
 import React, { Component } from 'react';
-import { Editor } from 'react-draft-wysiwyg';
+//import { Editor } from 'react-draft-wysiwyg';
+import dynamic from "next/dynamic";
+let EditorNoSSR = dynamic(import('react-draft-wysiwyg').then(obj => obj.Editor), {
+    ssr: false,
+    loading: () => <p>Loading ...</p>,
+})
 
 let NewProductIndex = () => {
     return <>
@@ -37,6 +42,9 @@ let NewProductForm = ({ }) => {
                 <div className="bg-white rounded-xl p-2 pt-4 pb-4 mb-2">
                     <Shipping />
                 </div>
+                <div className="bg-white rounded-xl p-2 pt-4 pb-4 mb-2">
+                    <OptionsSection />
+                </div>
             </form>
         </div>
     </>
@@ -55,7 +63,7 @@ let DescriptionComp = () => {
     return <>
         <div className="mb-2 p-2">
             <h4 className=" text-2xl">Description</h4>
-            <Editor /> </div>
+            <EditorNoSSR /> </div>
     </>
 }
 
@@ -214,8 +222,8 @@ let Shipping = () => {
                             <div className="sm:w-[600px] p-2">
                                 <h3>Harmonised system code</h3>
                                 <p className="border p-2 w-full sm:w-full ">
-                                    <span className="p-2 w-[calc(30px)] inline-block align-middle" >  
-                                    <FaSearch /></span>
+                                    <span className="p-2 w-[calc(30px)] inline-block align-middle" >
+                                        <FaSearch /></span>
                                     <input placeholder="0.00" className="p-2 w-[calc(100%-30px)] " />
                                 </p>
                             </div>
@@ -227,8 +235,8 @@ let Shipping = () => {
     </>
 }
 
-let Options = () => {
-    let [showOptions, changeShowOptions] = useState(false)
+let OptionsSection = () => {
+    let [showOptions, changeShowOptions] = useState(false);
     return <>
         <div className=" mb-2 p-2">
             <h4 className=" text-2xl" >Options</h4>
@@ -240,53 +248,68 @@ let Options = () => {
                     <span className=" ml-2 text-2xl" >This product has options, like size or color</span>
                 </div>
                 {showOptions ? <>
-                    <div className="p-2 flex justify-center sm:block sm:grid-cols-2 sm:gap-3 text-xl ">
-                        
-                        <div className=" sm:w-[600px] p-2">
-                            <h3>Customs information</h3>
-                            <p>
-                                Customs authorities use this information to calculate duties when shipping internationally.
-                                Shown on printed customs forms.</p>
-                            <div>
-                                <h3>Country/region</h3>
-                                <p><select className="w-full p-2 bg-white border-gray-500 default:border"><option>Nigeria</option></select></p>
-                            </div>
-                        </div>
-                        <div className=" sm:w-[600px] p-2">
-                            <p className="border p-2 w-full sm:w-full ">
-                                <input type="checkbox" className=" default:ring-2 default:ring-inset" />
-                                <span className=" ml-2" >Track item</span>
-                            </p>
-                        </div>
-                        <div className=" sm:w-[600px] p-2">
-                            <p className="border p-2 w-full sm:w-full ">
-                                <input type="checkbox" className=" default:ring-2 default:ring-inset" />
-                                <span className=" ml-2" >Continue selling after stock is out</span>
-                            </p>
-                        </div>
-                        <div className=" sm:w-full border-t-2 p-2 ">
-                            <div className="sm:w-[600px] p-2">
-                                <h3>Harmonised system code</h3>
-                                <p className="border p-2 w-full sm:w-full ">
-                                    <span className="p-2 w-[calc(30px)] inline-block align-middle" >  
-                                    <FaSearch /></span>
-                                    <input placeholder="0.00" className="p-2 w-[calc(100%-30px)] " />
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <Options showOptionsHook={changeShowOptions} />
                 </> : null}
             </div>
         </div>
     </>
 }
 
-let Option=()=>{
-    return<>
-    <div>
-        <h5>Option</h5>
-        <p><input className="w-full" /></p>
-    </div>
+
+let Options = ({ showOptionsHook }) => {
+    let [optionsState, changeOptionsState] =
+        useState([<Option deleteOptionHook={showOptionsHook} />]);
+    useEffect(() => {
+        
+    }, [optionsState.length])
+    return <>
+        <>
+
+            <div className="p-2 flex justify-center sm:block sm:grid-cols-2 sm:gap-3 text-xl ">
+
+                <div className=" sm:w-[600px] p-2">
+                    <h3>Customs information</h3>
+                    <p>
+                        Customs authorities use this information to calculate duties when shipping internationally.
+                        Shown on printed customs forms.</p>
+                    <div>
+                        <h3>Country/region</h3>
+                        <p><select className="w-full p-2 bg-white border-gray-500 default:border"><option>Nigeria</option></select></p>
+                    </div>
+                </div>
+                <div className=" sm:w-[600px] p-2">
+                    <p className="border p-2 w-full sm:w-full ">
+                        <input type="checkbox" className=" default:ring-2 default:ring-inset" />
+                        <span className=" ml-2" >Track item</span>
+                    </p>
+                </div>
+                <div className=" sm:w-[600px] p-2">
+                    <p className="border p-2 w-full sm:w-full ">
+                        <input type="checkbox" className=" default:ring-2 default:ring-inset" />
+                        <span className=" ml-2" >Continue selling after stock is out</span>
+                    </p>
+                </div>
+                <div className=" sm:w-full border-t-2 p-2 ">
+                    <div className="sm:w-[600px] p-2">
+
+                    </div>
+                </div>
+            </div>
+        </>
+    </>
+}
+
+let Option = ({ deleteOptionHook }) => {
+    return <>
+        <div className="flex" >
+            <h5>Option</h5>
+            <p>
+                <input className="w-full" />
+            </p>
+            <span onClick={e => {
+                deleteOptionHook(true)
+            }}><FaRegTrashAlt /></span>
+        </div>
     </>
 }
 export { NewProductIndex };
