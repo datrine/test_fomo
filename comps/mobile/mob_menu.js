@@ -49,7 +49,9 @@ let MenuExpanded = ({ openMenuHook, ...props }) => {
                     <Drawer {...props} />
                     <span onClick={e => {
                         openMenuHook(false)
-                    }} className="p-2 bg-blue-300 text-white rounded-full"><FaTimes /></span>
+                    }} className="p-2 bg-blue-300 text-white rounded-full">
+                        <FaTimes />
+                        </span>
                 </div>
                 <div className="h-3/5 bg-transparent backdrop-blur">
 
@@ -81,10 +83,8 @@ let Drawer = ({ isOpenedProps, openHook }) => {
                     <div className="h-full
                 flex flex-col justify-start items-center overflow-auto" >
                         <ul>
-                            {menuItems.filter((item)=>!item.parentId).map((obj, index) => <>
-                                <li key={index} >  <DrawerItem {...obj} key={index} /></li>
-
-                            </>)}
+                            {menuItems.filter((item)=>!item.parentId).map((obj, index) =><li key={index} > 
+                             <DrawerItem {...obj} key={index} /></li>)}
                         </ul>
                     </div>
                 </div>
@@ -135,9 +135,8 @@ let DrawerItem = ({ id, title, iconComp = null, link }) => {
             </div>
             <div className=" ml-3 w-11/12 min-w-[150px] text-[90%]">
                 <ul className=" list-outside" >
-                    {openItemSub && subItems.map((item, index) => <> <li key={index} > <DrawerItem {...item} />
-                    </li>
-                    </>)}
+                    {openItemSub && subItems.map((item, index) =><li key={index} > <DrawerItem {...item} />
+                    </li>)}
 
                 </ul>
             </div>
