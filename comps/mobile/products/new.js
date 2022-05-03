@@ -8,14 +8,6 @@ import { BsPlusLg } from "react-icons/bs"
 import dynamic from "next/dynamic";
 import { Form } from "react-bootstrap";
 import { Checkbox, FormControlLabel } from "@mui/material";
-let EditorNoSSR = dynamic(import('react-draft-wysiwyg').then(obj => obj.Editor), {
-    ssr: false,
-    loading: () => <p>Loading ...</p>,
-})
-let RichEditorNoSSR = dynamic(() => import('react-rte'), {
-    ssr: false,
-    loading: () => <p>Loading ...</p>,
-})
 let DescCompNoSSR = dynamic(() => import('./dyn').then(obj => obj.DescriptionComp), {
     ssr: false,
     loading: () => <p>Loading ...</p>,
@@ -65,7 +57,7 @@ let NewProductForm = ({ }) => {
                 <div className="bg-white rounded-xl p-2 pt-4 pb-4 mb-2">
                     <ProductOrg />
                 </div>
-
+<SaveBar/>
             </form>
         </div>
     </>
@@ -390,7 +382,7 @@ let ProductOrg = () => {
     return <>
         <div className="p-2">
             <h4 className=" text-2xl font-bold mb-2" >Product Status</h4>
-            <div className="border-b pb-2 mb-2" >
+            <div className="pb-2 mb-2" >
                 <div className="mb-2">
                     <h3 className="mb-1">Type</h3>
                     <input className="p-2 border w-full rounded-sm" />
@@ -399,7 +391,7 @@ let ProductOrg = () => {
                     <h3 className="mb-1">Vendor</h3>
                     <input className="p-2 border w-full rounded-sm" />
                 </div>
-                <div className="mb-2">
+                <div className="border-b mb-5">
                 <h3 className="mb-1">Collections</h3>
                     <input className="p-2 border w-full rounded-sm" />
                 </div>
@@ -410,5 +402,14 @@ let ProductOrg = () => {
             </div>
         </div>
     </>
+}
+
+let SaveBar=()=>{
+    return<>
+    <div className="fixed bottom-0 bg-black flex justify-around w-full p-2">
+        <span>Unsaved product</span>
+<button type="button" className=" px-2 py-1 border-white border text-white hover:bg-blue-500 rounded-sm" >Discard</button>
+<button disabled={true} type="button" className=" px-2 py-1 border-white border bg-green-500 disabled:bg-green-800 disabled:border-none disabled:border-0 disabled:text-gray-900 text-white hover:bg-blue-500 rounded-sm" >Saved</button>
+        </div></>
 }
 export { NewProductIndex };

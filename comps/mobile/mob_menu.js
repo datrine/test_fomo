@@ -24,7 +24,7 @@ let MobileHamBurgerMenu = () => {
 
 let MenuCollapsed = ({ openMenuHook, ...props }) => {
     return <>
-        <div className="md:hidden fixed top-0 w-screen backdrop-blur " >
+        <div className="md:hidden fixed top-0 w-screen backdrop-blur shadow-inner " >
 
             <div className="z-0 h-full w-full backdrop-blur" ></div>
             <div className="z-5 h-full w-full">
