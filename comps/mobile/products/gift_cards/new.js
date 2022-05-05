@@ -1,5 +1,13 @@
 import { GiHamburgerMenu } from "react-icons/gi"
 import { FaRegTrashAlt, FaSearch, FaTimes, FaStar } from "react-icons/fa"
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
+import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
+
+import TextField from '@mui/material/TextField';
 import { useEffect, useRef, useState } from "react"
 import React, { Component } from 'react';
 import { BiSortAlt2 } from "react-icons/bi"
@@ -9,18 +17,19 @@ import { MdIncompleteCircle } from "react-icons/md"
 //import { Editor } from 'react-draft-wysiwyg';
 import dynamic from "next/dynamic";
 import { Form, ProgressBar } from "react-bootstrap";
-import { Checkbox, Divider, FormControlLabel, Menu, MenuItem } from "@mui/material";
+import { Checkbox, Container, Divider, InputAdornment, Menu, MenuItem, } from "@mui/material";
 import { height } from "@mui/system";
 //import RichTextEditor from 'react-rte';DescriptionComp
 
-let NewTransferIndex = ({ }) => {
+
+const filter = createFilterOptions();
+let NewGiftCardIndex = ({ }) => {
     return <>
         <div className=" md:hidden mt-[50px] bg-[#F3F2F1] pb-5 pt-2">
             <TransfersBanner />
-            <OriginDiv />
-            <DestinationDiv />
-            <AddProductDiv />
-            <ShippingDiv />
+            <GiftCardDiv />
+            <ExpDateDiv />
+            <FindOrCreateCustomer />
             <AddDetailsDiv />
         </div>
     </>
@@ -29,25 +38,9 @@ let NewTransferIndex = ({ }) => {
 
 let TransfersBanner = () => {
     return <>
-        <div className="flex justify-between px-2 py-3 shadow-inner bg-[#dbdddf] items-center mb-2">
-            <span><AiOutlineArrowLeft size={22} /></span>
-            <span className="text-3xl font-bold">Create Inventory Transfer</span>
-        </div>
-    </>
-}
-
-let OriginDiv = () => {
-    let menuuu = <span>Select origin <BsCaretDown style={{ display: "inline" }} /></span>
-    let handleMenuOpen = (isOpened) => {
-        if (!isOpened) {
-            return
-        }
-
-    }
-    return <>
-        <div className=" shadow-inner py-3 px-4 border-b mb-3 bg-white max-w-[600px] mx-auto rounded-md">
-            <h3 className="mb-2 font-semibold text-xl" >Origin</h3>
-            <div><MyMenu handleMenuOpen={handleMenuOpen} menuBtn={menuuu} /></div>
+        <div className="flex flex-col px-3 py-2 shadow-inner bg-[#dbdddf] items-start mb-2">
+            <span className="py-1 px-2 border"><AiOutlineArrowLeft size={22} /></span>
+            <span className="text-3xl font-bold">Issue Gift Card</span>
         </div>
     </>
 }
@@ -68,25 +61,92 @@ let DestinationDiv = () => {
     </>
 }
 
-let AddProductDiv = () => {
+let FindOrCreateCustomer = () => {
     return <>
         <div className="  shadow-inner py-3 px-4 border-b mb-3 bg-white max-w-[600px] mx-auto rounded-md">
-            <h3 className="mb-2 font-semibold text-xl" >Add products</h3>
+            <h3 className="mb-2 font-semibold text-xl" >Find or create customer</h3>
+            <p><span>To send the gift card code, add a customer with an email address or phone number.</span></p>
             <div className="flex justify-around w-full">
-                <div className="py-1 border text-xl pl-1 rounded-xl w-4/6 inline-block ">
-                    <span><FaSearch style={{ display: "inline" }} /></span>
-                    <input className="w-[calc(100%-20px)] pl-1 text-sm" placeholder="Search products" />
-                </div>
-                <span className="px-2 py-1 border ml-2 rounded-md">Browse</span>
             </div>
+
+         
+            <div className="mt-2 ">
+   <FindAutocomplete />
+            </div>
+
         </div>
     </>
 }
 
-let ShippingDiv = () => {
+let FindAutocomplete = () => {
+    const [value, setValue] = React.useState(null);
+    const [inputValue, setInputValue] = React.useState('');
+    const [options, setOptions] = React.useState([]);
+    const loaded = React.useRef(false);
+    let [showTagMgtApp, changeShowTagMgtApp] = useState(false);
+    //<input className="w-[calc(100%-20px)] pl-1 text-sm py-1 inline-block" placeholder="" />
+    return <>
+        <Autocomplete
+        value={value}
+            includeInputInList
+            filterSelectedOptions
+            options={options}
+            filterOptions={(opts,state)=>{
+                const filtered=filter(opts,state);
+                if (!filtered.some(x=>x===state.inputValue)) {
+                    filtered.push("Add customer")
+                }
+                return filtered;
+            }}
+            getOptionLabel={opt => opt}
+            onChange={(event, newValue) => {
+                //setOptions(newValue ? [newValue, ...options] : options);
+                if (newValue) {
+                    console.log(newValue+" ......")
+                    changeShowTagMgtApp(true)
+                }
+                setValue(newValue);
+            }}
+            onInputChange={(event, newInputValue) => {
+                setInputValue(newInputValue);
+            }}
+            renderInput={(params) => {
+                return <>
+                    <TextField {...params}
+                        InputProps={{...params.InputProps,
+                            startAdornment: <InputAdornment position="start">
+                                <span><FaSearch style={{ display: "inline" }} /></span>
+                            </InputAdornment>,
+                        }} label="Search customers" fullWidth />
+                </>
+            }}
+            selectOnFocus
+            clearOnBlur
+            handleHomeEndKeys
+            freeSolo
+            renderOption={(props, option,state) => {
+                let view=null;
+                console.log(option)
+                if (option==="") {
+                    view=<><span>Create customer</span></>
+                }else{
+                    view=<><span>{option}</span></>
+                }
+                return <>
+                    <li {...props} >
+                        <span>{view}</span>
+                    </li>
+                </>
+            }} />
+            
+        {showTagMgtApp ? <ManageTagView openTagApp={changeShowTagMgtApp} /> : null}
+    </>
+}
+
+let GiftCardDiv = () => {
     return <>
         <div className=" shadow-inner py-3 px-4 border-b mb-3 bg-white max-w-[600px] mx-auto rounded-md">
-            <h3 className="mb-2 font-semibold text-xl" >Shipment details</h3>
+            <h3 className="mb-2 font-semibold text-xl" >Gift card details</h3>
             <div className="w-full">
                 <div className="mb-3">
                     <h3 className=" mb-1">Estimated arrival</h3>
@@ -94,14 +154,43 @@ let ShippingDiv = () => {
                         placeholder="Date of arrival" />
                 </div>
                 <div className="mb-3">
-                    <h3 className=" mb-1">Tracking number</h3>
-                    <input className="w-full block py-1 mx-auto border text-xl px-2 rounded-md"
-                        placeholder="Search products" />
+                    <h3 className=" mb-1">₦</h3>
+                    <input type="number" className="w-full block py-1 mx-auto border text-md px-2 rounded-md"
+                        placeholder="Initial value" />
                 </div>
                 <div className="mb-3">
                     <h3 className=" mb-1">Shipping carrier</h3>
-                    <input className="w-full block py-1 mx-auto border text-xl px-2 rounded-md"
+                    <input className="w-full block py-1 mx-auto border text-md px-2 rounded-md"
                         placeholder="Search products" />
+                </div>
+            </div>
+        </div>
+    </>
+}
+
+let ExpDateDiv = () => {
+    return <>
+        <div className=" shadow-inner py-3 px-4 border-b mb-3 bg-white max-w-[600px] mx-auto rounded-md">
+            <h3 className="mb-2 font-semibold text-lg" >Expiration date</h3>
+            <div className="w-full">
+                <div className="mb-3"><FormControl>
+                    <FormLabel id="demo-radio-buttons-group-label">Gender</FormLabel>
+                    <RadioGroup
+                        aria-labelledby="demo-radio-buttons-group-label"
+                        defaultValue="female"
+                        name="radio-buttons-group"
+                    >
+                        <FormControlLabel value="female" control={<Radio />} label="Female" />
+                        <FormControlLabel value="male" control={<Radio />} label="Male" />
+                        <FormControlLabel value="other" control={<Radio />} label="Other" />
+                    </RadioGroup>
+                </FormControl>
+
+                </div>
+                <div className="mb-3">
+                    <h3 className=" mb-1">Estimated arrival</h3>
+                    <input type="date" className="w-full block py-1 mx-auto border text-xl px-2 rounded-md"
+                        placeholder="Date of arrival" />
                 </div>
             </div>
         </div>
@@ -122,7 +211,7 @@ let AddDetailsDiv = () => {
                     <div className="flex w-full justify-between">
                         <h3 className="mb-2 font-semibold text-xl" >Tags</h3>
 
-                        <TagDiv />
+                        <CreateCustomerDiv />
 
                     </div>
                     <input className="w-full block py-1 mx-auto border text-xl px-2 rounded-md"
@@ -164,12 +253,13 @@ let MyMenu = ({ menuBtn, name, menuitems, menuComp, handleMenuOpen }) => {
     </>
 }
 
-let TagDiv = () => {
+let CreateCustomerDiv = () => {
     let [showTagMgtApp, changeShowTagMgtApp] = useState(false);
     return <>
-        <span onClick={e => {
+    <button className="w-full" onClick={e => {
+        console.log("ok;ljojj")
             changeShowTagMgtApp(true)
-        }} className=" underline text-blue-500">Manage tags</span>
+        }}>Create customer</button>
         {showTagMgtApp ? <ManageTagView openTagApp={changeShowTagMgtApp} /> : null}
     </>
 }
@@ -178,8 +268,8 @@ let ManageTagView = ({ openTagApp }) => {
     return <>
         <div className="fixed top-0 left-0 bottom-0 h-screen w-screen">
             <div onClick={e => {
-                        openTagApp(false)
-                    }} className=" h-1/2 w-full" style={{ backgroundColor: "rgba(0,0,0,0.5)" }}></div>
+                openTagApp(false)
+            }} className=" h-1/2 w-full" style={{ backgroundColor: "rgba(0,0,0,0.5)" }}></div>
             <div className=" h-1/2 w-full p-2" style={{ backgroundColor: "white" }}>
                 <div className="flex justify-between p-2 border-b mb-3 text-2xl">
                     <span>Manage tags</span>
@@ -237,4 +327,4 @@ let FilterTicker = ({ handleChange, label, index }) => {
         </p>
     </>
 }
-export { NewTransferIndex };
+export { NewGiftCardIndex };
